@@ -1,0 +1,35 @@
+.redtext {
+    color: red;
+    font-weight:700;
+    font-size:200px;
+}
+#profilephoto {
+    width:250px;
+    height:250px;
+}
+.firstface {
+    background-image: url("../images/fruit.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about {
+    height: 400px;
+    background: url("../images/panda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 30%; 
+    background-size: cover;
+}
+.navbar {width: auto;
+}
+.navbar-nav {
+    display:block;
+    list-style-type: none;
+    text-align:center;
+}
+.nav-item {
+    display: inline-block;
+    padding-right: 90px;
+}
