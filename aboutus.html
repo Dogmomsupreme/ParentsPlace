@@ -7,7 +7,9 @@
     <title>About Us</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -18,137 +20,169 @@
 </head>
 <body>
   <!-- navbar code-->
-  <div class="topnav">
-    <nav class="navbar navbar-static-top">
-            <a href="https://dogmomsupreme.github.io/ParentsPlace/">
-                    <img src="assets\IMG\PPbluelogo.png" alt="logo" height="84" width="180">
-                  </a>
-              <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+    <nav class="navbar navbar-static-top navbar-light">
+        <a href="https://dogmomsupreme.github.io/ParentsPlace/">
+          <img src="assets\IMG\PPbluelogo.png" alt="logo" height="84" width="180">
+        </a>
+        
+          <form class="navbar-form navbar-right">
+              <div class="form-group" style = "display: inline-block !important">
+                <input type="text" class="form-control" placeholder="Search">
+                <button type="submit" class="btn btn-default" ><span class = "fa fa-search"></span> </button>
               </div>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/">Home</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/aboutus">About Us</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/registration">Events</a>
-                </li>
-                <li class="nav-item">
-                          <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/cpr">CPR</a>
-                        </li> 
-                <li class="nav-item">
-                          <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/donate">Donate</a>
-                        </li> 
-                <li class="nav-item">
-                          <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/services">Services Provided</a>
-            </li> 
-           
-          </ul>
-        </div>  
-      </nav>
-    </div>
+          </form>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+          <i class="fa fa-bars" style="display: inline-block">
+          </i>
+        </button>         
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+          <form class="form-inline">
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/registration">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/cpr">CPR</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/donate">Donate</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="https://dogmomsupreme.github.io/ParentsPlace/services">Services Provided</a>
+          </li> 
+        </form>
+        </ul>
+      </div>
+    </nav>   
       <!-- end of navbar -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 red1">
-            1 column wide
-          </div>
-          <div class="col-md-2 yellow 1">
-            1 column wide
-          </div>
-          <div class="col-md-2 orange 1">
-              1 column wide
-            </div>
-            <div class="col-md-2 red 2">
-                1 column wide
-              </div>
-              <div class="col-md-2 yellow 2">
-                  1 column wide
-                </div>
-                <div class="col-md-2 orange 2">
-                    1 column wide
-                  </div>
-                  <div class="col-md-2 red 3">
-                      1 column wide
-                    </div>
-                    <div class="col-md-2 yellow 3">
-                        1 column wide
-                      </div>
-                      <div class="col-md-2 orange 3">
-                          1 column wide
-                      </div>
-        </div>
+      <div class="containter">
+        <h2 class= "page-header">About Us</h2>
+        <br>
+        <p id="rcorners1"><Strong>Parents’ Place</Strong> provides information and education to improve knowledge so parents, caregivers, and professionals can become empowered, allowing them to advocate for their children more effectively.</p>
       </div>
-      <div class="container">
-          <div class="row">
-            <div class="col-lg red1">
-              1 column wide
-            </div>
-          </div>
-      </div>
-      <div class="container">
       <div class="row">
-          <div class="col-md">
-            <div class="card">
-              <img src="assets\IMG\pupcollage.png" alt="JOEL DOE" style="width:100%">
-              <div class="container">
-                <h2>Employee 1</h2>
-                <p class="title">JOB TITLE &amp; JOB TITLE</p>
-                <p>lorem ipsum ipsum lorem.</p>
-                <p>example@example.com</p>
-              </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src= "assets/IMG/haircut.JPG" width= "420px">
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src= "assets/IMG/haircut.JPG" width= "420px">
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src= "assets/IMG/haircut.JPG" width= "420px">
+          </div>
+      </div>
+      <br>
+      <div class= "containter">
+        <div class="row">
+        <div class= "col-sm-12 col-md-6 col-lg-8">
+          <p>
+              Information is provided through: 
+            <ul>
+              <li>The warm line</li>
+              <li>Educational workshops</li>
+              <li>Parent information packets</li>
+              <li> Referrals to local and national resources</li>
+              <li>Access to information on the internet</li>
+              <li>Annual information fair & festival</li>
+              <li>Meeting one-on-one with a family resource specialist.</li>
+            </ul>
+          </p>
+          </div>
+        </div>
+        <br>
+      <div class="row">
+          <div class= "col-sm-12 col-md-8 col-lg-8">
+            <p>
+                You can speak one-on-one with a trained resource specialist or parent.  Although the Warm Line does not give medical or psychological advice, being able to talk to someone in similar circumstances and knowing they have experienced the same feelings and needs, creates a bond which fosters and renews strength at a time when discouragement seems overwhelming.
+            </p>
             </div>
           </div>
-          <div class="row">
-              <div class="col-md">
-                <div class="card">
-                  <img src="assets\IMG\pupcollage.png" alt="JOEL DOE" style="width:100%">
-                  <div class="container">
-                    <h2>Employee 1</h2>
-                    <p class="title">JOB TITLE &amp; JOB TITLE</p>
-                    <p>lorem ipsum ipsum lorem.</p>
-                    <p>example@example.com</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                  <div class="col-md">
-                    <div class="card">
-                      <img src="assets\IMG\pupcollage.png" alt="JOEL DOE" style="width:100%">
-                      <div class="container">
-                        <h2>Employee 1</h2>
-                        <p class="title">JOB TITLE &amp; JOB TITLE</p>
-                        <p>lorem ipsum ipsum lorem.</p>
-                        <p>example@example.com</p>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-md">
-                        <div class="card">
-                          <img src="assets\IMG\pupcollage.png" alt="JOEL DOE" style="width:100%">
-                          <div class="container">
-                            <h2>Employee 1</h2>
-                            <p class="title">JOB TITLE &amp; JOB TITLE</p>
-                            <p>lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
-    <div class="jumbotron text-center" style="margin-bottom:0">
-        <p>Footer</p>
+      </div>
+      <br>
+      <div class="row">
+          <div class= "col-sm-12 col-md-6 col-lg-6">
+            <p>
+                As a parent, professional or concerned member of the community, you are invited to join the
+​Parents' Place Family Resource Center Network Advisory Council to work with us in providing information and family support services to both parents and professionals.
+            </p>
+          </div>
+      </div>
+      <br>
+      <div class="row">
+          <p id="rcorners2"><strong>Mission Statement:</strong>
+              "Providing hope and support for families with ​children with special needs through education and community resources." </p>
+      </div>
+      <!--footer begins-->
+    <div class="footer">
+        <div class="row">
+          <div class="col-sm-8 col-md-6 col-lg-6">
+          <p>
+            <strong>We would love to hear from you.</strong>
+          </p>
+          <p>
+            ​<strong>Visit us or call us, soon!</strong>
+          </p>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg" stlye: align= "left">
+            <p>
+            <strong>Areas Served:</strong> Altadena, Arcadia, Azusa, Baldwin Park, Bradbury, City of Industry, Claremont, Covina, Diamond Bar, Duarte, El Monte, Glendora, Hacienda Heights, Irwindale, La Puente, La Verne, Monrovia, Philips Ranch, Pomona, Rosemead, Rowland Heights, San Dimas, Sierra Madre, South El Monte, Temple City, Valinda, Walnut, and West Covina, part of Pasadena and part of Whittier
+            </p>
+            <p>
+            Programs and Services are funded in part B the California Department of Developmental Services, California Department of Educations, and by private donors in our community.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+        <div class= "col-sm-8 col-md-4 col-lg-4">
+          <p>
+            Hours
+          </p>
+          <ul style="list-style-type:none;">
+          <li>
+              Monday -Friday:8:00 am - 4:30 pm
+          </li>
+          <li>
+              2nd & 4th Saturday:9:00 am- 1:00 pm
+          </li>
+          <li>
+            Unless otherwise noted
+          </li>
+        </ul>
+        </div>
+        <div class= "col-sm-8 col-md-4 col-lg-4">
+            <p>
+              Telephone & Address
+            </p>
+            <ul style="list-style-type:none;"">
+            <li>
+                (626) 919-1091
+            </li>
+            <li>
+                1500 S. Hyacinth Ave Suite B West Covina, CA 91791
+            </li>
+          </ul>
+          </div>
+          <div class= "col-sm-8 col-md-4 col-lg-4">
+              <p>
+                Email
+              </p>
+              <ul style="list-style-type:none;">
+              <li>
+                <a href="http://www.yahoo.com">empower@parentsplacefrc.com</a>
+              </li>
+            </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
