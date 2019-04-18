@@ -8,6 +8,7 @@
     display:inline-block
 }
 .box2    {
+    box-sizing: border-box;
     margin: 100px auto;
     border-radius: 25px;
     background-color: darkcyan;

@@ -1,18 +1,21 @@
 body {
     background-color: rgb(255, 255, 255);
-    margin: 4;
-    font-family: Georgia, 'Times New Roman', Times, serif
-  }
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
 .navbar {
       width: auto;
 }
 .navbar-nav {
-    display:block;
+    display:inline-block;
     list-style-type: none;
     text-align:center;
 }
 .nav-item {
-    display: inline-block;
+    display: inline;
     padding-right: 90px;
 }
 .column {
@@ -21,15 +24,16 @@ body {
       margin-bottom: 16px;
       padding: 0 8px;
       width: 100%;
-        display: block;
+      display: block;
 }
-    /* Add some shadows to create a card effect */
-.card {
-      box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
-}    
-    /* Some left and right padding inside the container */
 .container {
       padding: 0 16px;
+}    
+.centerext {
+      padding: 0 16px;
+      box-sizing: border-box;
+      box-align:center;
+      display:inline-block;
 }    
     /* Clear floats */
 .container::after, .row::after {
@@ -41,6 +45,7 @@ body {
       color: rgb(62, 193, 216);
 }    
 .button {
+      position: absolute;
       border: none;
       outline: 0;
       display: inline;
@@ -53,20 +58,19 @@ body {
       color:rgb(62, 193, 216);
 }
 .footer {
-      position: fixed;
-      left: 0;
-      bottom: 200px;
-      width: 100%;
-      background-color: rgb(135, 228, 245);
-      color: black;
-      text-align: center;
+      position: static;
+    height: auto;
+    background-color: rgb(62, 193, 216);
+    color:black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text align:center;
 }
 h2 {
       text-align:center;
       color: rgb(62, 193, 216);
-}
-i {
-     color: rgb(62, 193, 216);
 }
 col {
       padding: 6px
@@ -98,4 +102,54 @@ col {
 }
 li    {
       text-align:left;
+}
+form{
+      float:right;
+      transform: translate(-50%,-50%);
+      transition: all 1s;
+      width: 50px;
+      height: 50px;
+      background: white;
+      box-sizing: border-box;
+      border-radius: 25px;
+      border: 1px solid grey;
+      padding-top: 5px;
+}
+input{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;;
+      height: 42.5px;
+      line-height: 30px;
+      outline: 0;
+      border: 0;
+      display: none;
+      font-size: 1em;
+      border-radius: 20px;
+      padding: 0 20px;
+}
+.fa{
+      box-sizing: border-box;
+      border:none;
+      padding: 0px;
+      width: 42px;
+      height: auto;
+      float:right;
+      top: 0;
+      right: 0;
+      text-align: center;
+      font-size: 1.2em;
+      transition: all 1s;
+      color: rgb(62, 193, 216);
+}
+form:hover{
+      width: 200px;
+      cursor: pointer;
+}
+form:hover input{
+      display: block;
+}
+form:hover .fa{
+      color: white;
 }
