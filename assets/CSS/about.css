@@ -6,5 +6,5 @@
     padding-left:1rem;
 }
 .image-about {
-    place-content:center;
+    box-align: inline-block;
 }

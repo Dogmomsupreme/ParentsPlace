@@ -90,19 +90,24 @@ body {
     margin-bottom: 0px;
     text align:center;
 }
+.footer-content {
+      padding: 0.5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right:1rem;
+    padding-bottom: 0.5rem;
+    padding-left:1rem;
+}
 h2 {
       text-align:center;
       color: #8ed7f7;
 }
-/*col {
-      padding: 6px
-}*/
 .p {
       border:none;
       box-align:center;
       text-align: left;
 }
 col {
+      padding: 6px
       box-align:center;
       text-align:left;
 }
@@ -185,7 +190,4 @@ li    {
 }
 .search-bar-expand:hover .fa{
       color: white;
-}
-.search-bar-contents i {
-      
 }
