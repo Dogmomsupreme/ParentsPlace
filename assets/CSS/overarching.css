@@ -9,14 +9,38 @@ body {
 .navbar {
       width: auto;
 }
+.navbar-toggler {
+      background-color: rgb(62, 193, 216);
+      border:none;
+      height:50px;
+      width:50px;
+      display: inline-block; 
+      text-align: center;
+      border-radius:25px;
+}
+.navbar-toggler .fa-bars {
+      color:white;
+      size:12px;
+}
 .navbar-nav {
     display:inline-block;
     list-style-type: none;
     text-align:center;
 }
+#nav-contents {
+      position: relative;
+}
+.nav-link{
+      color: rgb(62, 193, 216); 
+}
+#collapsibleNavbar {
+      float:none;
+      text-align:center;
+}
 .nav-item {
     display: inline;
     padding-right: 90px;
+    color: rgb(62, 193, 216); 
 }
 .column {
       float: left;
@@ -104,30 +128,40 @@ li    {
       text-align:left;
 }
 .search-bar-expand{
-      float:right;
-      transform: translate(-50%,-50%);
+      /*transform: translate(-50%,-50%);*/
       transition: all 1s;
       width: 50px;
       height: 50px;
       background: white;
       box-sizing: border-box;
       border-radius: 25px;
-      border: 1px solid grey;
-      padding-top: 5px;
+      border: 3px solid  rgb(62, 193, 216);
+      position: relative;
+     
 }
-input{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;;
-      height: 42.5px;
-      line-height: 30px;
+.search-bar-expand .fa {
+      padding-right: 1px; 
+      padding-top:10px;
+      color:  rgb(62, 193, 216);
+      font-size: 25px;
+}
+#search-bar-contents{
+      float:left; 
+      padding-right: 5px; 
+}
+#toggle-contents{
+      overflow:hidden;
+}
+.search-bar-expand input{
+      top:0;
+      height:100%;
+      width: 100%;
       outline: 0;
-      border: 0;
-      display: none;
+      border: 0; 
+      display:none;
       font-size: 1em;
-      border-radius: 20px;
-      padding: 0 20px;
+      border-radius: 25px;
+      position: absolute;
 }
 .expando{
       box-sizing: border-box;
@@ -142,16 +176,16 @@ input{
       font-size: 1.2em;
       transition: all 1s;
 }
-.fa {
-      color: rgb(62, 193, 216);
-}
 .search-bar-expand:hover{
       width: 200px;
       cursor: pointer;
 }
-.search-bar-expand:hover input{
-      display: block;
+.search-bar-expand:hover #search-input{
+     display:block; 
 }
 .search-bar-expand:hover .fa{
       color: white;
+}
+.search-bar-contents i {
+      
 }
