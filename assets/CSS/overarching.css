@@ -53,11 +53,10 @@ body {
 .container {
       padding: 0 16px;
 }    
-.centertext {
+.about-us-container {
       padding: 0 16px;
       box-sizing: border-box;
       box-align:center;
-      display:inline-block;
 }    
     /* Clear floats */
 .container::after, .row::after {
