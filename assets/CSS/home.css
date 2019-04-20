@@ -1,44 +1,37 @@
 .box   {
     box-sizing: border-box;
-    margin: 100px auto;
     border-radius: 25px;
-    background-color: darkcyan;
-    padding: 25px;  
-    display:inline-block
+    background-color: #24627; 
+    display:inline-block;
+    width:100%;
+    height:auto;
 }
-.container-1 .icon{
-    position: absolute;
-    top: 50%;
-    margin-left: 17px;
-    margin-top: 17px;
-    z-index: 1;
-    color: darkcyan;
+.home-content{
+    padding: 0.5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right:1rem;
+    padding-bottom: 0.5rem;
+    padding-left:1rem;
 }
-.container-1 input#search{
-    width: 300px;
-    height: 40px;
-    background: white;
-    border: none;
-    font-size: 10pt;
-    float: left;
-    color:black;
-    padding-left: 45px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+#tranlate-button {
+    background-color: #fcb354;
+    border-radius:25px;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
 }
-.h2 {
-    display:inline;
+/* Style the active class (and buttons on mouse-over) */
+.active, .translate-button:hover {
+    background-color: #db9539;
+    color: white;
 }
-.column-events {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns 
-  haven't adjusted for my page yet*/
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.newsletter-btn {
+    color:#fcb354;
+}
+#welcome-comments {
+    text-align:center;
+}
+.contact-resources ul{
+    list-style-type:none;
+    text-align:center;
+}

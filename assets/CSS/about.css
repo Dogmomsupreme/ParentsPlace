@@ -5,6 +5,30 @@
     padding-bottom: 0.5rem;
     padding-left:1rem;
 }
-.image-about {
-    box-align: inline-block;
+.top-statement {
+    width:100%;
+}
+#about-us-statement {
+    color:#8fd8f8;
+}
+.mish {
+    text-align:center;
+}
+#ms-color{
+    color:#fcb354;
+}
+#mission-statement {
+    border-radius: 25px;
+    background: #246271;
+    padding: 20px; 
+    width: 100%;
+    height: 100px; 
+    display:inline-block;
+    color:white;
+    text-align:left;
+}
+.box {
+    width:100%;
+    height:auto;
+    display:inline-block;
 }
