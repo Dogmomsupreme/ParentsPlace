@@ -103,7 +103,7 @@ col {
 li    {
       text-align:left;
 }
-form{
+.search-bar-expand{
       float:right;
       transform: translate(-50%,-50%);
       transition: all 1s;
@@ -129,7 +129,7 @@ input{
       border-radius: 20px;
       padding: 0 20px;
 }
-.fa{
+.expando{
       box-sizing: border-box;
       border:none;
       padding: 0px;
@@ -141,15 +141,17 @@ input{
       text-align: center;
       font-size: 1.2em;
       transition: all 1s;
+}
+.fa {
       color: rgb(62, 193, 216);
 }
-form:hover{
+.search-bar-expand:hover{
       width: 200px;
       cursor: pointer;
 }
-form:hover input{
+.search-bar-expand:hover input{
       display: block;
 }
-form:hover .fa{
+.search-bar-expand:hover .fa{
       color: white;
 }
