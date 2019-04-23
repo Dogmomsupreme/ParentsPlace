@@ -38,8 +38,11 @@ body {
 }
 .nav-item {
     display: inline;
-    padding-right: 90px;
-    color: #8fd8f8; 
+    background-color:white;
+    padding:60px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+      color: #246271; 
 }
 .column {
       float: left;

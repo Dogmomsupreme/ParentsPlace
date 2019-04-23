@@ -21,11 +21,11 @@
     cursor: pointer;
 }
 /* Style the active class (and buttons on mouse-over) */
-.active, .translate-button:hover {
+.translate-button {
     background-color: #db9539;
     color: white;
 }
-.newsletter-btn {
+.newsletter-link {
     color:#fcb354;
 }
 #welcome-comments {
@@ -33,5 +33,40 @@
 }
 #contact-resources{
     list-style-type:none;
-    text-align:center;
+    text-align:left;
+    align:center;
 }
+.events-calender {
+    margin: 5% 2% 5% 2%;
+}
+.border-info {
+    width:100%;
+    text-align:center;
+border-style: double;
+    border-width:thick;
+}
+#wrap {
+    width:100%;
+    margin:0 auto;
+ }
+ #left_col {
+    float:left;
+    width:50%;
+    list-style-type:none;
+ }
+ #right_col {
+    float:right;
+    width:50%;
+    list-style-type:none;
+ }
+ .noted {
+     align:center;
+ }
+.flyer .img-fluid.{
+    display:inline-block;
+    max-width: 100%;
+    height:auto;
+ }
+ .flyer {
+     
+ }
