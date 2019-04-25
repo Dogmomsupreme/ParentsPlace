@@ -1,7 +1,7 @@
 .box   {
     box-sizing: border-box;
     border-radius: 25px;
-    background-color: #24627; 
+    background-color: #246271; 
     display:inline-block;
     width:100%;
     height:auto;
@@ -16,33 +16,63 @@
 #tranlate-button {
     background-color: #fcb354;
     border-radius:25px;
-    outline: none;
-    padding: 10px 16px;
-    cursor: pointer;
-}
-/* Style the active class (and buttons on mouse-over) */
-.translate-button {
-    background-color: #db9539;
+    padding: 10px 16px 10px 16px;
     color: white;
+    cursor: pointer;
+    width: 150px;
+}
+#tranlate-button:hover{
+    background-color:#8fd8f8;
+    color:black;
 }
 .newsletter-link {
     color:#fcb354;
+    cursor:pointer;
+}
+.newsletter-link:hover {
+    color:#8fd8f8;
+    cursor:pointer;
+}
+.logo {
+    color:#0078FF;
+    box-sizing: border-box;
+    border:none;
+    padding: 0px;
+    font-size:50px;
+    cursor:pointer;
+    position:relative;
+}
+.logo:hover {
+    color:#fcb354;
+}
+.facebooklogo {
+    box-align:right;
+}
+h1 {
+    color:#246271;
+    text-align:center;
+    font-weight: bold;
+
 }
 #welcome-comments {
+    text-align:center;
+}
+.contactbox {
     text-align:center;
 }
 #contact-resources{
     list-style-type:none;
     text-align:left;
-    align:center;
+    display:inline-block;
 }
 .events-calender {
-    margin: 5% 2% 5% 2%;
+    margin:0% 2% 5% 2%;
+    list-style-type:none;
 }
 .border-info {
     width:100%;
     text-align:center;
-border-style: double;
+    border-style: double;
     border-width:thick;
 }
 #wrap {
@@ -60,13 +90,10 @@ border-style: double;
     list-style-type:none;
  }
  .noted {
-     align:center;
+     box-align:center;
  }
 .flyer .img-fluid.{
     display:inline-block;
     max-width: 100%;
     height:auto;
- }
- .flyer {
-     
  }

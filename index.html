@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!-- Optional JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <!--font awesome-->
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
 
   <!-- local css style -->
   <link rel="stylesheet" href="assets/CSS/overarching.css">
@@ -100,7 +101,7 @@
         <br>
         <div class="row">
           <div class="col text-xs-center">
-            <h4>
+              <div class="contactbox">
               <ul id="contact-resources">
                 <li>Address: 1500 S Hyacinth Ave Suite B</li>
                 <li>West Covina, CA 91791</li>
@@ -109,23 +110,46 @@
                 <li>WarmLine: (800) 442-2022</li>
                 <li>Email: empower@parentsplacefrc.com</li>
               </ul>
-            </h4>
+            </div>
           </div>
         </div>
         <br>
-        <h4>
-          <a class="newsletter-link" href="https://dogmomsupreme.github.io/ParentsPlace/" target="_blank">Sign up for
-            our
-            newsletter!</a>
-        </h4>
+        <div class="row">
+          <div class="col text-xs-center">
+            <h4>
+              <a class="newsletter-link" href="https://dogmomsupreme.github.io/ParentsPlace/" target="_blank">Sign up
+                for
+                our
+                newsletter!</a>
+            </h4>
+          </div>
+        </div>
       </div>
-
-      <button active id="tranlate-button" href="https://dogmomsupreme.github.io/ParentsPlace/" target="_blank">En
-        Espanol</button>
+    <div class="row">
+      <div col-sm-4 col-md-2 col-lg-2>
+      <button type="translate-button" active id="tranlate-button" class="btn btn-primary btn-lg active" data-toggle="tooltip"
+        data-placement="top" title="Tooltip on top">
+        En Espanol
+      </button>
+      <script>
+        $(document).ready(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        });
+        $('[data-toggle="popover"]').popover()
+        });
+      </script>
+    </div>
+    <div class="col-sm-4 col-md-2 col-lg-2>">
+      <div class="facebooklogo">
+        <a href="https://www.facebook.com/The-Parents-Place-Family-Resource-and-Empowerment-Center-210383269053763/"><i class="fab fa-facebook-square logo"></i></a>
+      </div>
+      </div>
+    </div>
     </div>
   </div>
+  <h1>Upcoming Events</h1>
+  <br>
   <div class="events-calender">
-    <h2>Upcoming Events</h2>
     <div class="row">
       <span class="border border-info">
         <p>CALENDAR OF EVENTS EFFECTIVE: JANUARY 2019
@@ -147,7 +171,7 @@
                 <p>Sunday, April 28th, 2019; 1:00 p.m. to 4:00 p.m.
                   Cortez Park, 2441 E. Cortez St., West Covina, CA 91791</p>
               </li>
-              <p>TRAININGS Facilitated by Office of Clients Rights Advocacy (Disability Rights CA)</p>
+              <strong>TRAININGS Facilitated by Office of Clients Rights Advocacy (Disability Rights CA)</strong>
               <li>
                 <strong>IHSS:<strong>
                     <p>FRIDAY March 15th 2019
@@ -187,66 +211,66 @@
                   English, Spanish, & Mandarin </p>
 
               </li>
+            </ul>
           </div>
           <div id="right_col" class="col-sm-6 col-md-6 col-lg-6">
-            <li>
-              <strong>ESTOS TALLERES SERAN PRESENTADOS POR: OFICÍNA DE LOS DERECHOS DEL CLIENTE- DRC</strong>
-            </li>
-            <li>
-              <strong> IHSS: </strong>
-              <p>15 de Febrero 2019
-                9:45 a.m.-12:00 p.m.
-              </p>
-            </li>
-            <li>
-              <strong>IEP CLINIC: MARTES 15 de Enero</strong>
-              <p>9:00 a.m., 10:00 a.m., 11:00 a.m.
-                Español
-              </p>
-            </li>
-            <li>
-              <strong>IEP CLINIC: MARTES 19 de Marzo</strong>
-              <p>
-                9:00 a.m., 10:00 a.m., 11:00 a.m.
-              </p>
-            </li>
-            <li>
-              <strong> Navegando IEPs: MARTES 19 de Febrero</strong>
-              <p>>9:30 a.m. - 11:30 a.m.
-                Español
-              </p>
-            </li>
-            <li>
-              <strong>Aplicaciones Electronicas para Estudiantes Mayores: </strong>
-            </li>
-            <li>
-              <strong>Escuela Intermedia, Secundaria, Y Colegio</strong>
-              <p>19 de Marzo
-                9:45 a.m.-12:00 p.m.
-              </p>
-            </li>
-            <li>
-              <strong>CLASES DE DIBUJO PARA NIÑOS:</strong>
-              <p>$5.00 por persona.
-                Para registrarse, por favor de llamar al 626-974-1806- Para niños entre 5-12 años
-                9 de Marzo 2019
-                10:00 am.–11:00 a.m.
-                Ingles, Español y Chino
-              </p>
-            </li>
+            <ul>
+              <li>
+                <strong>ESTOS TALLERES SERAN PRESENTADOS POR: OFICÍNA DE LOS DERECHOS DEL CLIENTE- DRC</strong>
+              </li>
+              <li>
+                <strong> IHSS: </strong>
+                <p>15 de Febrero 2019
+                  9:45 a.m.-12:00 p.m.
+                </p>
+              </li>
+              <li>
+                <strong>IEP CLINIC: MARTES 15 de Enero</strong>
+                <p>9:00 a.m., 10:00 a.m., 11:00 a.m.
+                  Español
+                </p>
+              </li>
+              <li>
+                <strong>IEP CLINIC: MARTES 19 de Marzo</strong>
+                <p>
+                  9:00 a.m., 10:00 a.m., 11:00 a.m.
+                </p>
+              </li>
+              <li>
+                <strong> Navegando IEPs: MARTES 19 de Febrero</strong>
+                <p>>9:30 a.m. - 11:30 a.m.
+                  Español
+                </p>
+              </li>
+              <li>
+                <strong>Aplicaciones Electronicas para Estudiantes Mayores: </strong>
+              </li>
+              <li>
+                <strong>Escuela Intermedia, Secundaria, Y Colegio</strong>
+                <p>19 de Marzo
+                  9:45 a.m.-12:00 p.m.
+                </p>
+              </li>
+              <li>
+                <strong>CLASES DE DIBUJO PARA NIÑOS:</strong>
+                <p>$5.00 por persona.
+                  Para registrarse, por favor de llamar al 626-974-1806- Para niños entre 5-12 años
+                  9 de Marzo 2019
+                  10:00 am.–11:00 a.m.
+                  Ingles, Español y Chino
+                </p>
+              </li>
             </ul>
           </div>
           <br>
-          <div class="noted">
-            <strong>All workshops will be held at Parents’ Place unless otherwise noted.</strong>
-            <p> Funded in part by California Department of Developmental Services & California Department of Education
-            </p>
-         </div>
-        </span>
+          <strong>All workshops will be held at Parents’ Place unless otherwise noted.</strong>
+          <p> Funded in part by California Department of Developmental Services & California Department of Education
+          </p>
+      </span>
     </div>
   </div>
   </div>
-  <img src="assets\IMG\infofairflyer.png" class="flyer" width="80%" alt="flyer" align="middle>
+  <img src="assets\IMG\infofairflyer.png" class="flyer" width="80%" alt="flyer">
   <img src="assets\IMG\infofairflyer.png" class="flyer" width="80%" alt="flyer">
 </body>
 <!--footer-->
