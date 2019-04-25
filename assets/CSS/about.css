@@ -27,8 +27,39 @@
     color:white;
     text-align:left;
 }
-.box {
-    width:100%;
-    height:auto;
-    display:inline-block;
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ ol.carousel-indicators li,
+ ol.carousel-indicators li.active {
+    width: .5rem;
+    height: .5rem;
+    margin: .25rem;
+    border-radius: 50%;
+    border: 0;
+    background: transparent;
+ }
+ 
+ ol.carousel-indicators li {
+    background: rgba(255,255,255,0.39);
+    margin-left: .25rem;
+    margin-right: .25rem;
+ }
+ 
+ ol.carousel-indicators li.active {
+    background: #8fd8f8;
+ }
+.carousel-inner img {
+    width: 70%;
+    margin: auto;
 }
+ .center-block {
+     display: inline-block;
+     align-items:center;
+    }
