@@ -1,0 +1,19 @@
+.headbox {
+    box-sizing: border-box;
+    text-align:center;
+    width:100%;
+    padding: 5px 0px 5px 0px;
+    background-color:#8fd8f8;
+    height: auto;
+}
+.donationinfo {
+    margin:auto;
+    width:100%;
+}
+.selection {
+    color: #fcb354;
+    margin:auto;
+}
+.donatechoices {
+    width:200px;
+}
