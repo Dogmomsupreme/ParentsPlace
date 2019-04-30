@@ -15,5 +15,30 @@
     margin:auto;
 }
 .donatechoices {
-    width:200px;
+    margin:0 auto;
+    padding:15px;
+    width:100%;
+}
+.endpage {
+    margin:0 auto;
+    width:60%;
+}
+.suggestion {
+    color: #fcb354;
+    margin:0 auto;
+   text-align:center;
+}
+.AHAlogo {
+    border: 2px solid;
+}
+.AHAprice {
+    padding-top:30px;
+}
+a:link {
+    text-decoration: none;
+    color:#fcb354;
+}
+a:hover {
+    text-decoration: none;
+    color:#8fd8f8;
 }
