@@ -1,9 +1,11 @@
-.topbox {
-    margin: 0 auto;
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-    padding: 15px 5px 5px 5px;
-    height: 300px;
-    background-color:#8fd8f8;
+.cpr-info {
+    align-content: left;
+}
+.AHA {
+    display: inline;
+    overflow: hidden;
+}
+.AHA img{
+    height:500%;
+    width:50%;
 }
