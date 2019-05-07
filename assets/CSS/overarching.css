@@ -6,10 +6,6 @@ body {
       height: 100vh;
       width: 100%;
 }
-.header-logo{
-      
-}
-
 .navbar-toggler {
       background-color: #8fd8f8;
       border: none;
@@ -108,6 +104,7 @@ h1 {
 .footer {
       position: static;
       height: auto;
+      width:100%;
       background-color: #8fd8f8;
       color: black;
       bottom: 0px;

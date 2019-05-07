@@ -19,7 +19,7 @@
     padding-left: 1rem;
 }
 
-#tranlate-button {
+#translate-button {
     background-color: #fcb354;
     border-radius: 25px;
     margin-left:25px;
@@ -29,7 +29,7 @@
     width: 150px;
 }
 
-#tranlate-button:hover {
+#translate-button:hover {
     background-color: #8fd8f8;
     color: black;
     cursor: pointer;
@@ -93,9 +93,7 @@
 {
     position:relative; 
 }
-.bottom-btn-left
-{
-    
+.bottom-btn-left {
     left:0; 
 }
 .bottom-btn-right
