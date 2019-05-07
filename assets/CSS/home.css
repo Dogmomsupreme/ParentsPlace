@@ -10,6 +10,7 @@
 .page-header {
     padding top:5px;
     color: white;
+    padding:20px 5px 5px 5px;
 }
 .home-content {
     padding: 0.5rem 1rem;
@@ -84,10 +85,16 @@
     list-style-type: none;
 }
 
+.events-calender strong{
+    color:#fcb354;
+}
+
 .border-info {
     width: 100%;
     text-align: center;
-    color:#246271;
+    border-radius: 15px;
+    color:#8fd8f8;
+    background-color:#246271;
 }
 .bottom-btns-lr
 {
